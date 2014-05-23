@@ -6,5 +6,6 @@
         "email":"egorov@samsonos.com"
     },
     "licence":"Open Software License (OSL) v 3.0",
+    "minimum-stability":"dev",
 	"require":{"samsonos/php_core":"*"}
 }
