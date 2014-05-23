@@ -7,5 +7,14 @@
     },
     "licence":"Open Software License (OSL) v 3.0",
     "minimum-stability":"dev",
-	"require":{"samsonos/php_core":"*"}
+	"require":
+    {
+        "samsonos/php_core":"*",
+        "samsonos/php_resourcer":"*",
+        "samsonos/php_less":"*",
+        "samsonos/php_coffeescript":"*",
+        "samsonos/php_optimage":"*",
+        "samsonos/php_skeleton":"*",
+        "samsonos/php_html":"*"
+    }
 }
