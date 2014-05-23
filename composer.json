@@ -5,6 +5,5 @@
         "name":"Vitaly Iegorov",
         "email":"egorov@samsonos.com"
     },
-	"version":"1.0.0",
 	"require":{"samsonos/php_core":"*"}
 }
