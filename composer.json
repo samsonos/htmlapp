@@ -15,6 +15,7 @@
         "samsonos/php_coffeescript":"*",
         "samsonos/php_optimage":"*",
         "samsonos/php_skeleton":"*",
+        "samsonos/php_jquery": "*",
         "samsonos/php_html":"*"
     }
 }
