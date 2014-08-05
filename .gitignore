@@ -4,7 +4,7 @@ upload/*
 cache/*
 cms/*
 cms/cache/*
-cms/upload/* 
+cms/upload/*
 www/cms/*
 www/cms/cache/*
 www/cms/upload/* 
