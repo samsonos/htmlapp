@@ -9,7 +9,7 @@
 PHPCS_BIN=./vendor/bin/phpcs
 PHPCS_CODING_STANDARD=PSR2
 PHPCS_IGNORE_WARNINGS=1
-PHPCS_IGNORE=
+PHPCS_IGNORE=/cache/*,/vendor/*,app/view/*,*min.js
 TMP_STAGING=".tmp_staging"
 
 # parse config
