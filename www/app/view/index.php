@@ -1,7 +1,9 @@
 <html>
-	<head></head>
+	<head>
+        <title></title>
+	</head>
 	
 	<body>
-		
+		<?php m()->render()?>
 	</body>
 </html>
