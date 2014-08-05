@@ -3,8 +3,9 @@
 > Template for quick starting of html coding process
 
 #Installation 
-Use ```php composer.phar create-project samsonos/htmlapp``` for automatic application installation
+Use ```php composer.phar create-project -s dev samsonos/htmlapp``` for automatic application installation
 and all of its dependencies.
 
+> After installation you should change this readme to describe future project
 
 Developed by [SamsonOS](http://samsonos.com/)

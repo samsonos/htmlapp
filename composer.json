@@ -15,6 +15,18 @@
         "samsonos/php_coffeescript":"*",
         "samsonos/php_optimage":"*",
         "samsonos/php_skeleton":"*",
+		"samsonos/js_core":"*",
         "samsonos/php_html":"*"
-    }
+    },
+	"require-dev": {
+        "squizlabs/php_codesniffer": "2.0.*@dev",
+		"phpunit/phpunit": "4.1.*",
+		"satooshi/php-coveralls": "dev-master"
+    },
+	"scripts": {
+        "post-install-cmd": [
+            "bash contrib/setup.sh"
+        ]
+    },
+	"license":"Open Software License (OSL) v 3.0"
 }

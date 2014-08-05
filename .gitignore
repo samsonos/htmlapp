@@ -5,5 +5,9 @@ cache/*
 cms/*
 cms/cache/*
 cms/upload/* 
+www/cms/*
+www/cms/cache/*
+www/cms/upload/* 
+www/cache/*
 composer.lock
 composer.phar
