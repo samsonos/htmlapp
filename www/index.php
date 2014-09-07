@@ -1,8 +1,17 @@
 <?php
-// Configuration
-require('config.php');
+/** SamsonPHP init script */
 
-// TODO: add validator of default files to force user to change them
+/** Set default locale to - English! */
+define('DEFAULT_LOCALE', 'en');
 
-// Load SamsonPHP core
-s()->composer()->start('main');
+/** Set new project structure vendor path */
+define('__SAMSON_VENDOR_PATH', '../vendor/');
+
+/** Load SamsonPHP framework */
+require(__SAMSON_VENDOR_PATH.'/autoload.php');
+
+/** Set supported locales */
+setlocales('ru', 'ua', 'en');
+
+/** Start SamsonPHP web-application */
+s()->composer()->e404('e404')->start( 'main' );

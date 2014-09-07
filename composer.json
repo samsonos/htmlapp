@@ -11,11 +11,15 @@
     {
         "samsonos/php_core":"*",
         "samsonos/php_resourcer":"*",
+        "samsonos/php_activerecord": "*",
         "samsonos/php_less":"*",
-        "samsonos/php_coffeescript":"*",
+        "samsonos/php_compressor": "*",
+        "samsonos/php_deploy": "*",
         "samsonos/php_optimage":"*",
         "samsonos/php_skeleton":"*",
 		"samsonos/js_core":"*",
+        "samsonos/cms_api": "*",
+        "samsonos/seo_sitemap": "*",
         "samsonos/php_html":"*"
     },
 	"require-dev": {
