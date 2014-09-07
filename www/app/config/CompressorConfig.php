@@ -9,5 +9,5 @@ class CompressorConfig extends \samson\core\Config
 {
     public $__module = 'compressor';
 
-    public $output = '/var/www.final/samsonos.dev2/www/';
+    public $output = '';
 }

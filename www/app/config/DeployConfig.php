@@ -10,8 +10,8 @@ class DeployConfig extends \samson\core\Config
 {
     public $__module = 'deploy';
 
-    public $host 	= 'samsonos.com';
-    public $wwwroot	= '/var/www/samsonos.com/www/';
-    public $username= 'vitaly';
-    public $password= 'Vital29121987';
+    public $host 	= '';
+    public $wwwroot	= '';
+    public $username= '';
+    public $password= '';
 }
