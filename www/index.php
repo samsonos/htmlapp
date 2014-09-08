@@ -10,6 +10,9 @@ define('__SAMSON_VENDOR_PATH', '../vendor/');
 /** Load SamsonPHP framework */
 require(__SAMSON_VENDOR_PATH.'/autoload.php');
 
+/** Use default SamsonPHP URL router */
+url();
+
 /** Set supported locales */
 setlocales('ru');
 
