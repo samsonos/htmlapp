@@ -14,4 +14,4 @@ require(__SAMSON_VENDOR_PATH.'/autoload.php');
 setlocales('ru');
 
 /** Start SamsonPHP web-application */
-s()->composer()->subscribe('core.e404', 'main_e404')->start( 'main' );
+s()->composer()->subscribe('core.e404', 'main_e404')->start('main');
