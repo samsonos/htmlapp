@@ -20,6 +20,7 @@
 		"samsonos/js_core":"*",
         "samsonos/cms_api": "*",
         "samsonos/seo_sitemap": "*",
+        "samsonos/php_i18n": "*",
         "samsonos/php_html":"*"
     },
 	"require-dev": {

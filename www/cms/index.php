@@ -22,6 +22,7 @@ require(__SAMSON_VENDOR_PATH.'autoload.php');
 require('../app/config/ActiveRecordConfig.php');
 require('../app/config/CompressorConfig.php');
 require('../app/config/DeployConfig.php');
+require('../app/config/SitemapConfig.php');
 
 /** Load SamsonCMS **/
 require(__PATH.'/www/index.php');
