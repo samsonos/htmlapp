@@ -9,6 +9,9 @@
     "minimum-stability":"dev",
 	"require":
     {
+
+    },
+	"require-dev": {
         "samsonos/php_core":"*",
         "samsonos/php_resourcer":"*",
         "samsonos/php_activerecord": "*",
@@ -17,13 +20,11 @@
         "samsonos/php_deploy": "*",
         "samsonos/php_optimage":"*",
         "samsonos/php_skeleton":"*",
-		"samsonos/js_core":"*",
+        "samsonos/js_core":"*",
         "samsonos/cms_api": "*",
         "samsonos/seo_sitemap": "*",
         "samsonos/php_i18n": "*",
-        "samsonos/php_html":"*"
-    },
-	"require-dev": {
+        "samsonos/php_html":"*",
         "squizlabs/php_codesniffer": "2.0.*@dev",
 		"phpunit/phpunit": "4.1.*"
     },
