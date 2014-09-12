@@ -5,7 +5,7 @@
 #Installation
 First of all you must get working [Composer](http://getcomposer.org).
 
-Use ```php composer.phar create-project --prefer-dist -s dev samsonos/htmlapp [your_path]``` for automatic application installation
+Use ```php composer.phar create-project --prefer-dist -s dev samsonos/htmlapp [your_path]``` for automatic installation of SamsonPHP application
 and all of its dependencies.
 
 > After installation you should change this readme.md to describe future project purposes
