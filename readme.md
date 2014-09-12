@@ -1,4 +1,4 @@
-#Application template for [SamsonPHP](http://samsonphp.com) framework
+#Application template for [SamsonPHP](http://samsonphp.com)
 
 > Quickstarter for creating projects with SamsonPHP
 
