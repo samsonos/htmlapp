@@ -2,7 +2,9 @@
 
 > Quickstarter for creating projects with SamsonPHP
 
-#Installation 
+#Installation
+First of all you must get working [Composer](http://getcomposer.org).
+
 Use ```php composer.phar create-project --prefer-dist -s dev samsonos/htmlapp [your_path]``` for automatic application installation
 and all of its dependencies.
 
