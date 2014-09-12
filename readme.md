@@ -11,4 +11,6 @@ and all of its dependencies.
 This template includes automatic git repository creation and installing of [phpUnit]() and [phpCodeSniffer]().
 Also git pre-commit hook will be automatically generated to check your code for PSR-2 coding style.
 
+> If you do not want PHPCS features - go to ```.git/hooks``` and remove ```pre-commit``` hook file.
+
 Developed by [SamsonOS](http://samsonos.com/)
