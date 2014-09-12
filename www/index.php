@@ -10,11 +10,12 @@ define('__SAMSON_VENDOR_PATH', '../vendor/');
 /** Load SamsonPHP framework */
 require(__SAMSON_VENDOR_PATH.'/autoload.php');
 
-/** Use default SamsonPHP URL router */
-url();
-
 /** Set supported locales */
 setlocales('ru');
 
 /** Start SamsonPHP web-application */
-s()->composer()->subscribe('core.e404', 'main_e404')->start('main');
+s()
+    ->composer()                                        // Load configuration from composer.json
+    ->subscribe('core.routing', array(url(), 'router')) // Use default SamsonPHP URL router
+    ->subscribe('core.e404', 'main_e404')               // Set e404 error handler
+    ->start('main');                                    // Start framework
