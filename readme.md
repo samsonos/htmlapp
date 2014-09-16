@@ -17,7 +17,7 @@ Also git pre-commit hook will be automatically generated to check your code for 
 
 The next steps you must do to get it working:
 * Give web-server rights to write to ```/www/cache``` folder
-* Create database and configure connection to it via ```/www/app/config/ActiveRecordConfig.php```
+* Create database and configure connection to it via ```/www/app/config/ActiveRecordConfig.php```([How to configure module](https://github.com/samsonos/php_core/wiki/0.3-Configurating))
 * Open your project in web broswer to check if everything is fine.
 * Write your project code and have fun!
 
