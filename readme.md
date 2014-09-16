@@ -15,4 +15,11 @@ Also git pre-commit hook will be automatically generated to check your code for 
 
 > If you do not want PHPCS features - go to ```.git/hooks``` and remove ```pre-commit``` hook file.
 
+The next steps you must do to get it working:
+* Give web-server rights to write to ```/www/cache``` folder
+* Create database and configure connection to it via ```/www/app/config/ActiveRecordConfig.php```
+* Create your project and have fun!
+
+To learn more about using SamsonPHP [visit official documentation](http://samsonphp.com)
+
 Developed by [SamsonOS](http://samsonos.com/)
