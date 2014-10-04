@@ -1,5 +1,6 @@
 <?php
 namespace tests;
+
 /**
  * Created by Vitaly Iegorov <egorov@samsonos.com>
  * on 04.08.14 at 16:42
