@@ -3,5 +3,6 @@
 git init
 cp contrib/pre-commit .git/hooks/pre-commit
 chmod +x .git/hooks/pre-commit
-chown -R :www-data .
-chmod -R 0775 .
+mkdir www/cache
+chown -R :www-data www/cache
+chmod -R 0775 www/cache
