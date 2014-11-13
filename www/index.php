@@ -4,11 +4,8 @@
 /** Set default locale to - Russian */
 define('DEFAULT_LOCALE', 'ru');
 
-/** Set new project structure vendor path */
-define('__SAMSON_VENDOR_PATH', '../vendor/');
-
 /** Load SamsonPHP framework */
-require(__SAMSON_VENDOR_PATH.'/autoload.php');
+require('../vendor/autoload.php');
 
 /** Set supported locales */
 setlocales('ru');
