@@ -12,7 +12,7 @@
 
     },
 	"require-dev": {
-        "samsonos/php_core":"*",
+        "samsonos/php_core":"1.*",
         "samsonos/php_resourcer":"*",
         "samsonos/php_activerecord": "*",
         "samsonos/php_less":"*",
@@ -27,11 +27,6 @@
         "samsonos/php_html":"*",
         "squizlabs/php_codesniffer": "2.0.*@dev",
 		"phpunit/phpunit": "4.1.*"
-    },
-	"scripts": {
-        "post-install-cmd": [
-            "bash contrib/setup.sh"
-        ]
     },
     "autoload": {
         "classmap": ["src/"]
