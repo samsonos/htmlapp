@@ -1,5 +1,16 @@
 AddDefaultCharset utf-8
 
 RewriteEngine On
+
+# Without slash redirect to slash
+RewriteCond  %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ http://embargo.ua/$1/ [L,R=301]
+
+# Redirect index.php to /
+RewriteCond %{THE_REQUEST} ^.*/index\.php 
+RewriteRule ^(.*)index.php$ /$1 [R=301,L] 
+
+# Redirect all requests to init script
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [L]
