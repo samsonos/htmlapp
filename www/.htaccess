@@ -4,8 +4,7 @@ RewriteEngine On
 
 # Without slash redirect to slash
 RewriteCond  %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} !(.*)/$
-RewriteRule ^(.*)$ http://embargo.ua/$1/ [L,R=301]
+RewriteRule (.*[^/])$ $1/ [R=301,L]
 
 # Redirect index.php to /
 RewriteCond %{THE_REQUEST} ^.*/index\.php 
