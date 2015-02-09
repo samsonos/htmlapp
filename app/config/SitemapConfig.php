@@ -7,11 +7,7 @@ namespace samsonphp;
  */
 
 /** Конфигурация DEV для Sitemap */
-class SitemapConfig extends \samson\core\Config
+class SitemapConfig \samsonphp\config\Entity
 {
-    public $__module = 'sitemap';
-
-    public $schema = array(
-        'sites' => array('sitemap_sites', 'portfolio/')
-    );
+    public $schema = array();
 }
