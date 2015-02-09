@@ -7,9 +7,7 @@ namespace samsonphp;
  */
 
 /** Config for compressor */
-class CompressorConfig extends \samson\core\Config
+class CompressorConfig \samsonphp\config\Entity
 {
-    public $__module = 'compressor';
-
     public $output = '';
 }
