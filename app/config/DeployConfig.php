@@ -7,10 +7,8 @@ namespace samsonphp;
  */
 
 /** Конфигурация DEV для Deploy */
-class DeployConfig extends \samson\core\Config
+class DeployConfig \samsonphp\config\Entity
 {
-    public $__module = 'deploy';
-
     public $host 	= '';
     public $wwwroot	= '';
     public $username= '';
