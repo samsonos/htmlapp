@@ -7,10 +7,8 @@ namespace samsonphp;
  */
 
 /** Конфигурация DEV для ActiveRecord */
-class ActiveRecordConfig extends \samson\core\Config
+class ActiveRecordConfig extends \samsonphp\config\Entity
 {
-    public $__module = 'activerecord';
-
     public $name 	= '';
     public $login 	= '';
     public $pwd 	= '';
