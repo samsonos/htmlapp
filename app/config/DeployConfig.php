@@ -6,8 +6,8 @@ namespace samsonphp;
  * on 19.08.14 at 16:06
  */
 
-/** Конфигурация DEV для Deploy */
-class DeployConfig \samsonphp\config\Entity
+/** Deploy configuration entity */
+class DeployConfig extends \samsonphp\config\Entity
 {
     public $host 	= '';
     public $wwwroot	= '';

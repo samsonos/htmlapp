@@ -6,7 +6,7 @@ namespace samsonphp;
  * on 19.08.14 at 16:05
  */
 
-/** Конфигурация DEV для ActiveRecord */
+/** ActiveRecord configuration entity  */
 class ActiveRecordConfig extends \samsonphp\config\Entity
 {
     public $name 	= '';

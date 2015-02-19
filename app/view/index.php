@@ -1,9 +1,9 @@
 <html>
 	<head>
-        <title></title>
+        <title><?php iv('title')?></title>
 	</head>
 	
-	<body>
+	<body id="<?php iv('id')?>">
 		<?php m()->render()?>
 	</body>
 </html>
