@@ -15,7 +15,7 @@ composer create-project --prefer-dist -s dev samsonos/htmlapp [your_path]
 
 #What next?
 * You should change this readme.md to describe future project purposes
-* Create ```www/cache``` folder with right to write for your web-server user
+* Create ```www/cache``` folder with permissions to write for your web-server user
 * Create database and configure connection to it via ```/app/config/ActiveRecordConfig.php```([How to configure module](https://github.com/samsonphp/config))
 * Open your project in browser to check if everything is fine.
 * Write your project code and have fun!
