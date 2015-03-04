@@ -4,6 +4,11 @@
 /** Set default locale to - Russian */
 define('DEFAULT_LOCALE', 'ru');
 
+// Check if composer is installed
+if (!file_exists('../vendor/autoload.php')) {
+    die('/vendor folder does not exists, probably you have not installed composer dependencies(composer install)');
+}
+
 /** Load SamsonPHP framework */
 require('../vendor/autoload.php');
 
