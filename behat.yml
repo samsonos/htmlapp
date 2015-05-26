@@ -1,0 +1,17 @@
+# behat.yml
+default:
+  translation:
+    locale: ru
+  extensions:
+    Behat\MinkExtension:
+      base_url: 'http://test.local'
+      sessions:
+        default:
+          selenium2:
+            browser: phantomjs
+            wd_host: "http://localhost:8643/wd/hub"
+
+local:
+  extensions:
+      Behat\MinkExtension:
+        base_url: 'http://egorov.test.local'
